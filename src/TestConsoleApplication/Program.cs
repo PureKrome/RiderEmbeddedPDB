@@ -1,0 +1,15 @@
+using System;
+using System.Threading.Tasks;
+
+namespace TestConsoleApplication
+{
+    class Program
+    {
+        static async Task Main(string[] args)
+        {
+            Console.WriteLine("Starting test application.");
+
+
+        }
+    }
+}

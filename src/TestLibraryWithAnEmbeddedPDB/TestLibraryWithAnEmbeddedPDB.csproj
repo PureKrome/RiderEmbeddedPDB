@@ -1,0 +1,35 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <Authors>Pure Krome</Authors>
+    <Company>World-Domination Technologies</Company>
+    <Description>A simple test library with the PDB's embedded. Useful for testing if your IDE can debug/step into this libraries code.</Description>
+    <Copyright>World-Domination Technologies 2021</Copyright>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/PureKrome/RiderEmbeddedPDB</PackageProjectUrl>
+    <PackageIcon>icon.jpg</PackageIcon>
+    <PackageIconUrl />
+    <RepositoryUrl>https://github.com/PureKrome/RiderEmbeddedPDB</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>world-domination</PackageTags>
+    <PublishRepositoryUrl>true</PublishRepositoryUrl>
+    <EmbedUntrackedSources>true</EmbedUntrackedSources>
+    <DebugType>embedded</DebugType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.SourceLink.GitHub" Version="1.0.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+  
+  <ItemGroup>
+    <None Include="..\..\icon.jpg">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
