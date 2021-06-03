@@ -1,5 +1,6 @@
 using System;
 using System.Threading.Tasks;
+using TestLibraryWithAnEmbeddedPDB;
 
 namespace TestConsoleApplication
 {
@@ -9,7 +10,10 @@ namespace TestConsoleApplication
         {
             Console.WriteLine("Starting test application.");
 
+            var foo = new SampleTestThing();
 
+            Console.WriteLine(foo.GetDateTime());
+            Console.WriteLine(await foo.GetDateTimeAsync());
         }
     }
 }

@@ -2,6 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
+    <PackageId>TestLibraryWithAnEmbeddedPDB</PackageId>
     <Authors>Pure Krome</Authors>
     <Company>World-Domination Technologies</Company>
     <Description>A simple test library with the PDB's embedded. Useful for testing if your IDE can debug/step into this libraries code.</Description>
